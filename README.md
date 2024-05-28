@@ -38,5 +38,3 @@ User-Agent from Fetch AI: The project utilizes a user-agent string provided by F
 API Keys and Credentials: Configure any necessary API keys or credentials required for fetching stock information or news from external sources.
 Extensibility: Feel free to extend the functionalities provided in the stock_advisor.py and scrape_news.py modules to suit your specific needs or integrate additional data sources.
 Compliance: Ensure compliance with terms of service and usage policies when scraping news from external websites.
-Contributors
-
