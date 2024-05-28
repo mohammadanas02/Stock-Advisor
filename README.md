@@ -53,11 +53,11 @@ pip install -r requirements.txt
 - **scrape_news.py:** Module responsible for scraping news related to stocks from financial websites.
 
 ## Usage
-    1. Ensure all dependencies are installed using the command mentioned in the Dependencies section.
-    2. Run the main.py script.
-    3. Enter the desired stock information when prompted.
-    4. View the fetched stock codes and select one.
-    5. Receive investment suggestions based on fundamental analysis, recent market trends, and news sentiment.
+1. Ensure all dependencies are installed using the command mentioned in the Dependencies section.
+2. Run the main.py script.
+3. Enter the desired stock information when prompted.
+4. View the fetched stock codes and select one.
+5. Receive investment suggestions based on fundamental analysis, recent market trends, and news sentiment.
 
 
 
