@@ -8,16 +8,16 @@
 Stock Advisor is a Python project designed to provide users with comprehensive insights into stock information, including fundamental data analysis, trend analysis, and investment suggestions. This README provides a detailed overview of the project structure, dependencies, functionalities, and how to use it.
 
 ## Features
-### Fundamental Data Analysis
+### 1. Fundamental Data Analysis:
 Fetch fundamental data for a given stock symbol, including market capitalization, dividend yield, price-to-earnings ratio, and more.
 
-### Trend Analysis
+### 2. Trend Analysis:
 Analyze stock trends over a specified period, visualize short-term and long-term trends, and identify potential buying or selling signals.
 
-### Investment Suggestions
+### 3. Investment Suggestions:
 Generate investment suggestions based on fundamental analysis, recent market trends, and sentiment analysis of news related to the stock.
 
-### News Scraping
+### 4. News Scraping:
 Retrieve news articles related to a particular stock from financial websites, providing users with up-to-date information influencing stock prices.
 
 
@@ -46,18 +46,19 @@ pip install -r requirements.txt
 
 ## Project Structure
 
-**main.py:** The main script orchestrating user interaction and utilizing functionalities from other modules.
+- **main.py:** The main script orchestrating user interaction and utilizing functionalities from other modules.
 
-**stock_advisor.py:** Module containing functions for fetching stock data, analyzing trends, and generating investment suggestions.
+- **stock_advisor.py:** Module containing functions for fetching stock data, analyzing trends, and generating investment suggestions.
 
-**scrape_news.py:** Module responsible for scraping news related to stocks from financial websites.
+- **scrape_news.py:** Module responsible for scraping news related to stocks from financial websites.
 
 ## Usage
-1. Ensure all dependencies are installed using the command mentioned in the Dependencies section.
-2. Run the main.py script.
-3. Enter the desired stock information when prompted.
-4. View the fetched stock codes and select one.
-5. Receive investment suggestions based on fundamental analysis, recent market trends, and news sentiment.
+    1. Ensure all dependencies are installed using the command mentioned in the Dependencies section.
+    2. Run the main.py script.
+    3. Enter the desired stock information when prompted.
+    4. View the fetched stock codes and select one.
+    5. Receive investment suggestions based on fundamental analysis, recent market trends, and news sentiment.
+
 
 
 ## Additional Notes
